@@ -12,6 +12,7 @@
         {   "executable-name": "gcc",
             "options":[
 		"-Werror",
+		"-Wpointer-sign",
                 "-O3",
                 {
                     "prefix":"-I",
